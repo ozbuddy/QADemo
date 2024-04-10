@@ -8,7 +8,7 @@ import pages.LoginPage;
 public class test1 extends BaseTest {
 	@Test
 	public void launchApplication() {
-		// this is a test1
+		// this is a test
 		driver.get("https://rahulshettyacademy.com/client/");
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.loginIn("userName", "password");
